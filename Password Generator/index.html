@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="style.css"/>
+       
+    </head>
+    <body>
+        <div class="Container">
+        
+            <h3>GENERATE A STRONG PASSWORD!</h3>
+        
+        <div class="text-area">
+            <input type="text" id="strongPasswordValue" value="PASSWORD" disabled/>
+            <img src="copy.jpeg" id="CopySuccess" onclick="CopyStrongPassword()"/>
+        </div>
+
+        <div class="password-length">
+            <input
+            type="range"
+            id="rangeInput"
+            min="6"
+            max="25"
+            value="8"
+            oninput="rangeValue.value = this.value"/>
+            <input
+            type="number"
+            id="rangeValue"
+            min="6"
+            max="25"
+            value="8"
+            oninput="rangeInput.value = this.value"/>
+        </div>
+
+        <div class="checkBox-list">
+            <label class="options" for="Uppercase"><input id="Uppercase" type="checkbox" value="Uppercase" checked />
+            Include Uppercase Letters (A-Z)</label>
+            
+            <label class="options" for="Lowercase"><input id="Lowercase" type="checkbox" value="Lowercase" /> Include
+            Lowercase Letters (a-z)</label>
+           
+            <label class="options" for="Numbers"><input id="Numbers" type="checkbox" value="Numbers" /> Include
+            Numbers (0-9)</label>
+
+            <label class="options" for="Symbols"><input id="Symbols" type="checkbox" value="Symbols" /> Include
+            Symbols (@-$)</label>
+
+            <label class="options" for="Duplicate"><input id="Duplicate" type="checkbox" value="Duplicate" /> Exclude
+            Duplicate Characters</label>
+        </div>
+        <button class="generatePassword">Generate Password</button>
+
+        <script type="text/javascript" src="script.js"></script>
+    </div>
+     
+    </body>
+</html>
