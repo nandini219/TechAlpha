@@ -1,3 +1,3 @@
-# AGE-Calculator
-The Age Calculator is a web-based tool developed using JavaScript that enables users to determine their age based on their input of birth date, month, and year. It utilizes JavaScript's built-in date and time functions to perform the age calculation process accurately and efficiently.
+# Password Generator
+Web-based Password Generator, crafted with HTML, CSS, and JavaScript, ensures robust online security by generating strong, randomized passwords. Seamlessly blending user-friendly design and cutting-edge technology, it offers a hassle-free experience across web platforms. By incorporating random numbers, symbols, and letters, our generator creates passwords resistant to hacking attempts, bolstering digital defense against cyber threats. With customizable options for password length and complexity, users can effortlessly tailor their passwords to meet stringent security requirements. Empowering users to safeguard their online identities, our Password Generator stands as a reliable ally in the ongoing battle for cyber resilience and data protection.
 
